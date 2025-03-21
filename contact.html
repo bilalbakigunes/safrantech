@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SafranTech Team 8777 | İletişim</title>
+  <meta name="description" content="SafranTech Team 8777 iletişim sayfası: okul konumu, telefon, e-posta, harita ve iletişim formu.">
+  <link rel="icon" type="image/png" href="assets/img/logos/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg site-navbar fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html" aria-label="SafranTech anasayfa">
+      <img class="brand-logo" src="assets/img/logos/safrantech-logo.png" alt="SafranTech Team 8777 logosu">
+      <div class="brand-text">
+        <strong>SafranTech</strong>
+        <span>Team 8777</span>
+      </div>
+    </a>
+    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Menüyü aç">
+      <span class="navbar-toggler-icon" style="filter:invert(1);"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">Hakkımızda</a></li>
+<li class="nav-item"><a class="nav-link" href="projects.html">Projelerimiz</a></li>
+<li class="nav-item"><a class="nav-link" href="gallery.html">Galeri</a></li>
+<li class="nav-item"><a class="nav-link active" href="contact.html">İletişim</a></li>
+        <li class="nav-item ms-lg-2">
+          <a class="btn btn-premium" href="contact.html">Takıma Ulaş</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+  
+<section class="page-hero">
+  <div class="container">
+    <div class="page-banner shadow-premium">
+      <span class="eyebrow">İletişim</span>
+      <h1 class="section-title mt-3">Okul konumu, takım bilgileri ve form</h1>
+      <p class="section-desc mb-0">İletişim sayfası okulun resmî adres bilgileri, takım e-postası, harita görünümü ve doğrulamalı iletişim formu ile tamamlandı.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section class="section-space">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <div class="contact-card h-100">
+            <span class="section-kicker">İletişim bilgileri</span>
+            <h2 class="section-title">Takıma ve okula ulaşın</h2>
+
+            <div class="contact-row mt-4">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h3>Adres</h3>
+                <p>Emek Mah. Esenyalı Sk. Ahi Evran Mesleki ve Teknik Anadolu Lisesi Blok No: 14, Safranbolu / Karabük</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=EMEK%20MAH.%20ESENYALI%20SK.%20AHI%20EVRAN%20MESLEKI%20VE%20TEKNIK%20ANADOLU%20LISESI%20BLOK%20NO:%2014%20SAFRANBOLU%20KARABUK" target="_blank" rel="noopener">Haritada aç ↗</a>
+              </div>
+            </div>
+
+            <div class="contact-row">
+              <div class="contact-icon">☎️</div>
+              <div>
+                <h3>Telefon</h3>
+                <p>(0370) 712 15 73</p>
+              </div>
+            </div>
+
+            <div class="contact-row">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <h3>Takım E-postası</h3>
+                <a href="mailto:safrantechtt@gmail.com">safrantechtt@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-row">
+              <div class="contact-icon">🌐</div>
+              <div>
+                <h3>Resmî Bağlantılar</h3>
+                <a href="https://ahievran.meb.k12.tr/" target="_blank" rel="noopener">Ahi Evran MTAL ↗</a><br>
+                <a href="https://github.com/safrantech" target="_blank" rel="noopener">SafranTech GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="contact-card">
+            <span class="section-kicker">İletişim formu</span>
+            <h2 class="section-title">Bize yazın</h2>
+            <p class="section-desc">Form doğrulaması JavaScript ile yapılır. Bu demo projede gönderim işlemi simüle edilir ve başarılı mesajı ekranda gösterilir.</p>
+            <form id="contactForm" novalidate class="mt-4">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Ad Soyad</label>
+                  <input id="name" name="name" class="form-control" type="text" placeholder="Adınız Soyadınız" required>
+                  <div class="invalid-feedback">Ad Soyad alanı zorunludur.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">E-posta</label>
+                  <input id="email" name="email" class="form-control" type="email" placeholder="ornek@mail.com" required>
+                  <div class="invalid-feedback">Geçerli bir e-posta giriniz.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="subject" class="form-label">Konu</label>
+                  <input id="subject" name="subject" class="form-control" type="text" placeholder="Mesaj konusu" required>
+                  <div class="invalid-feedback">Konu alanı zorunludur.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="type" class="form-label">Mesaj Türü</label>
+                  <select id="type" name="type" class="form-select" required>
+                    <option value="">Seçiniz</option>
+                    <option>Takım hakkında bilgi</option>
+                    <option>Proje iş birliği</option>
+                    <option>Etkinlik / sunum talebi</option>
+                    <option>Genel iletişim</option>
+                  </select>
+                  <div class="invalid-feedback">Lütfen bir mesaj türü seçiniz.</div>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Mesaj</label>
+                  <textarea id="message" name="message" class="form-control" rows="6" placeholder="Mesajınızı yazınız..." required></textarea>
+                  <div class="invalid-feedback">Mesaj alanı zorunludur.</div>
+                </div>
+                <div class="col-12 d-flex flex-wrap gap-3 align-items-center">
+                  <button type="submit" class="btn btn-premium">Mesajı Gönder</button>
+                  <span class="small-note">Bu form öğretim amaçlı olarak hazırlanmıştır.</span>
+                </div>
+              </div>
+            </form>
+            <div id="formSuccess" class="form-success">Mesajınız alındı. Demo proje olduğu için gönderim simüle edildi.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-space pt-0">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <div class="map-frame">
+            <iframe src="https://www.google.com/maps?q=EMEK%20MAH.%20ESENYALI%20SK.%20AHI%20EVRAN%20MESLEKI%20VE%20TEKNIK%20ANADOLU%20LISESI%20BLOK%20NO:%2014%20SAFRANBOLU%20KARABUK&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ahi Evran Mesleki ve Teknik Anadolu Lisesi konumu"></iframe>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="contact-card h-100">
+            <span class="section-kicker">Sık sorulanlar</span>
+            <h2 class="section-title">İletişim sayfası notları</h2>
+            <div class="accordion accordion-premium mt-4" id="faqAccordion">
+              <div class="accordion-item rounded-premium overflow-hidden">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">Bu sitedeki bilgiler nereden derlendi?</button>
+                </h2>
+                <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">İçerikler okulun resmî sayfaları, FRC resmî takım sayfası, GitHub organizasyonu ve kullanıcı tarafından sağlanan görseller temel alınarak hazırlandı.</div>
+                </div>
+              </div>
+              <div class="accordion-item rounded-premium overflow-hidden mt-3">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">Harita canlı mı çalışıyor?</button>
+                </h2>
+                <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Evet. Bu alanda Google Maps gömülü harita kullanıldı. İnternet bağlantısı olduğunda konum gerçek adres üzerinden açılır.</div>
+                </div>
+              </div>
+              <div class="accordion-item rounded-premium overflow-hidden mt-3">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">Form verileri gerçekten gönderiliyor mu?</button>
+                </h2>
+                <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Hayır. Bu proje kapsamında form doğrulaması ve başarı mesajı gösterilir. Gerçek gönderim için ileride bir back-end veya form servisi bağlanabilir.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-4">
+        <div class="d-flex align-items-center gap-3 mb-3">
+          <img class="brand-logo" src="assets/img/logos/safrantech-logo.png" alt="SafranTech logosu">
+          <div class="brand-text">
+            <strong>SafranTech</strong>
+            <span>Team 8777</span>
+          </div>
+        </div>
+        <p class="text-soft mb-0">Safranbolu Ahi Evran Mesleki ve Teknik Anadolu Lisesi bünyesinde gelişen teknoloji, üretim ve yarışma kültürünü dijital ortamda bir araya getiren demo proje sitesi.</p>
+      </div>
+      <div class="col-lg-4">
+        <p class="footer-title mb-3">Hızlı Erişim</p>
+        <div class="footer-list">
+          <a href="index.html">Anasayfa</a>
+          <a href="about.html">Hakkımızda</a>
+          <a href="projects.html">Projelerimiz</a>
+          <a href="gallery.html">Galeri</a>
+          <a href="contact.html">İletişim</a>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <p class="footer-title mb-3">İletişim</p>
+        <p class="mb-1 text-soft">Emek Mah. Esenyalı Sk. Ahi Evran Mesleki ve Teknik Anadolu Lisesi Blok No: 14, Safranbolu / Karabük</p>
+        <p class="mb-1 text-soft">Telefon: (0370) 712 15 73</p>
+        <p class="mb-0 text-soft">E-posta: <a href="mailto:safrantechtt@gmail.com">safrantechtt@gmail.com</a></p>
+      </div>
+    </div>
+    <hr class="border-premium my-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between gap-2">
+      <p class="mb-0 text-muted-premium">© <span data-current-year></span> SafranTech Team 8777 • Web Tasarım Dersi Projesi</p>
+      <p class="mb-0 text-muted-premium">HTML • CSS • Bootstrap • JavaScript</p>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Yukarı çık">↑</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
